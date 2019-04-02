@@ -1,0 +1,17 @@
+{
+    "name": "sass-footer",
+    "version": "1.0.0",
+    "description": "Creating Footer With SASS",
+    "main": "index.js",
+    "repository": "https://github.com/oztasemrecan/sass-footer",
+    "author": "Emre Can ÖZTAŞ (ecoztas) <me@emrecanoztas.com>",
+    "license": "MIT",
+    "private": false,
+    "devDependencies": {
+        "gulp": "^4.0.0",
+        "gulp-cssmin": "^0.2.0",
+        "gulp-plumber": "^1.2.0",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2"
+    }
+}

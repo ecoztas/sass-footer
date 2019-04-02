@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * @name            sass-footer
+ * @file            footer.css
+ * @version         1.0.0
+ * @description     Creating Footer With SASS
+ * @repository      https://github.com/oztasemrecan/sass-footer
+ * @author          Emre Can ÖZTAŞ (ecoztas) <me@emrecanoztas.com>
+ * @license         MIT
+ */
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html {
+  height: 100%;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  position: relative;
+  margin: 0;
+  padding-bottom: 80px;
+  min-height: 100%;
+  font-family: "Poppins", sans-serif; }
+
+#l_page {
+  margin: 0px !important; }
+
+#l_footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute !important;
+  color: #FFF;
+  background-color: #000;
+  padding: 10px;
+  text-align: center; }
