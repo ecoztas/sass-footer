@@ -20,17 +20,17 @@ gulp.task('default', function() {
     console.log('Works fine!');
 });
 
-// TASK: LESS
+// TASK: SASS
 gulp.task('sass', function() {
     return (
-        gulp.src('footer.scss')
+        gulp.src('sass/*.scss')
         .pipe(plumber())
         .pipe(sass())
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('dist'))
         .pipe(cssmin())
         .pipe(rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('./'))
+        .pipe(gulp.dest('dist'))
     );
 });
