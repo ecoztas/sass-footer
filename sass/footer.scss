@@ -34,16 +34,17 @@ html {
 
 body {
     display: flex;
-    position: relative;
-    margin: 0;
-    padding-bottom: 80px;
-    min-height: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
     font-family: $fontFamily;
 }
 
 // Page Layout
 #l_page {
     margin: 0px !important;
+    min-height: 100%;
+    padding-bottom: 80px;
+    position: relative;
 }
 
 // Footer Layout
